@@ -1,11 +1,10 @@
-<p>Hello world</p>
 <div>
     <ul>
      {{#each data}}
     <li><img src={{this.image_url}} height="200px"></li>
-    <li>{{this.name}}</li>
-    <li>{{this.description}}</li>
-    <li>{{this.tagline}}</li>
+    <li><h3>{{this.name}}</h3></li>
+    <li><h4 style="color:brown">{{this.tagline}}</h4></li>
+    <li><p>{{this.description}}<p></li>
     {{/each}}
     </ul>
 </div>

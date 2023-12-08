@@ -1,0 +1,40 @@
+
+.front-img{
+   height:250px;
+   width: 250px; 
+   margin-left: 450px;
+   margin-top:50px;
+}
+
+footer{
+   color: #f7f9f9;
+   background-color: #0a2c42;
+   position:fixed;
+   bottom:0;
+   width:100vw;
+   height:4rem;   
+}
+
+footer > p {
+    padding: 10px 0 0 15px;
+}
+
+
+button {
+    background-color: #2081c3 ;
+    padding: 5px 10px;
+    margin-left:500px;
+    margin-top:10px;
+    border-width: 0;
+
+}
+
+
+button > a {
+    text-decoration:none;
+    color: #f7f9f9;
+}
+
+ul{
+    list-style-type: none;
+}
